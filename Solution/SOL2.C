@@ -1,4 +1,4 @@
-/* WAP to create to 3*3 matrics & check it is diaognal are not
+/* WAP to create to 3*3 Matrix & check it is diagonal are not
 Program 2 */
 #include<stdio.h>
 #include<conio.h>
@@ -10,7 +10,7 @@ void main()
 	{
 		for(j=0;j<3;j++)
 		{
-			printf("\nenter value for a[%d][%d]:",i,j);
+			printf("\n Enter value for a[%d][%d]:",i,j);
 			scanf("%d",&a[i][j]);
 		}
 	}
@@ -33,8 +33,8 @@ void main()
 		}
 	}
 	if(f==1)
-		printf("\n matrices is not diognal");
+		printf("\n Matrix is not Diagonal");
 	else
-		printf("\n matrices is diognal");
+		printf("\n Matrix is Diagonal");
 	getch();
 }
